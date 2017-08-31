@@ -15,7 +15,9 @@ include('busPadron.php');
 	
 </head>
 <body>
+<div class="dimHojaWeb">
 	<div id="main-wrapper">
+	<div class="hojas">
 		<div class="hojaCarta">
 			<header>
 
@@ -33,10 +35,11 @@ include('busPadron.php');
 				<div class="c3">
 					<img src="css/img/logoDos.svg" class="logo2">
 				</div>
-			</header>
-			<div class="liaPleca">
+				<div class="liaPleca">
 				<img src="css/img/lieaGris.svg" alt="">
 			</div>
+			</header>
+			
 			<article>
 
 				<div class="tablaUno">
@@ -138,27 +141,28 @@ include('busPadron.php');
 					<div class="cTfPago">
 						<div class="cfPago">
 							<div class="numero">1</div>
-							<p class="txtCuadro">Pago en ventanilla BBVA Bancomer:
+							<p class="txtCuadro">Pago en ventanilla Telecom Telégrafos:
 							<br>
 							<b>Convenio CIE: 1413325 y Referencia.</b>
 
 							</p>
 						</div>
-						<div class="cfPago">
-							<div class="numero">3</div>
+						<div class="cfPago"> 
+							<!-- <div class="numero">3</div>
 							<p class="txtCuadroG">Transferencia Interbancaria.
 							<br>
-							<img src="css/img/logoSPEI.svg" class="logoSPEI">
+							<img src="css/img/logoTelecom.svg" class="logoSPEI">
 							<b>CIE INTERBANCARIO
 							<br>
 							012914002014133252
 							</b>
 
-							</p>
-						</div>
+							</p> -->
+							<img src="css/img/logoTelecom150.svg" class="logoTelecom">
+						 </div>
 					</div>
 
-					<div class="cTfPago">
+					<!-- <div class="cTfPago">
 						<div class="cfPago">
 							<div class="numero">2</div>
 							<p class="txtCuadro">Portal Bancario Cliente BBVA Bancomer:
@@ -170,7 +174,7 @@ include('busPadron.php');
 						<div class="cfPago">
 							
 						</div>
-					</div>
+					</div> -->
 					
 					<div class="cTfPago">
 						<div class="cfPago">
@@ -280,5 +284,108 @@ include('busPadron.php');
 			</footer>
 		</div>
 	</div>
+	</div>
+	<!-- ##############
+	inicia segunda hoja
+	############## -->
+<div id="main-wrapper">
+<div class="hojas">
+
+	<div class="hojaCarta">
+
+			<div class="headerDos">
+
+				<div class="c1">
+					<img src="css/img/logoUno.svg" class="logo1">
+				</div>
+
+				<div class="c2">
+					<div class="cabecera1">
+						<img src="css/img/logoAno.svg" class="logo2">
+					</div>
+					
+				</div>
+
+				<div class="c3">
+					<img src="css/img/logoDos.svg" class="logo2">
+				</div>
+				<div class="liaPleca">
+				<img src="css/img/lieaGris.svg" alt="">
+				</div>
+			</div>
+			
+
+			<article>
+			<h1 class="tInfoUsr">COMO OBTENER TU COMPROBANTE FISCAL</h1>	
+				<div class="cPInfoUsr">
+					<div class="imgInfoUsuario">
+						<div class="cPaso1 cTxt">
+							<p>
+								PAGA EN CUALQUIER OFICINA 
+								<br>
+								DE TELECOMM TELÉGRAFOS
+							</p>
+						</div>
+						<div class="cPaso2 cTxt">
+							<p>
+								VALIDA TU PAGO CON LA TESORERÍA MUNICIPAL, A TRAVÉS DE:
+								<br>
+								Teléfono: 53-71-25-00 ext. 182
+								<br>
+								Correo Electrónico: tesorerianr@nicolasromero.mx
+								<br>
+								Facebook: TesoreriaNicolasRomero
+							</p>
+						</div>
+						<div class="cPaso3 cTxt">
+							<p>
+								PROPORCIONA TU CORREO
+								<br>
+								ELECTRÓNICO O AGENDA CITA PARA
+								<br>
+								RECOGER TU CFDI EN LAS OFICINAS MUNICIPALES
+							</p>
+						</div>
+						<div class="cPaso4 cTxt">
+							<p>
+								<b>
+								¡LISTO! AHORRAS TIEMPO
+								<br>
+								E - GOBIERNO GENTE DE
+								<br>
+								"TRABAJO Y RESULTADOS"
+								</b>
+							</p>
+						</div>
+					</div>
+				</div>
+			</article>
+
+				
+				
+			<footer>
+				<p>
+				<a href="#" class="sociales">
+				<i class="fa fa-facebook-square" aria-hidden="true" id="iconSocial"></i>
+				H.Aytto.NicolasRomero
+				</a>
+				<a href="#" class="sociales"s>
+				<i class="fa fa-facebook-square" aria-hidden="true" id="iconSocial"></i>
+				TesoreríaNicolásRomero
+				</a>
+				<a href="#" class="sociales">
+				<i class="fa fa-twitter-square" aria-hidden="true" id="iconSocial"></i>
+				_NicolasRomero_
+				</a>
+				<a href="#" class="sociales"s>
+				<i class="fa fa-twitter-square" aria-hidden="true" id="iconSocial"></i>
+				_@TesoreriaNR
+				</a>
+				</p>
+			</footer>
+		</div>
+</div>
+</div>
+</div>
 </body>
 </html>
